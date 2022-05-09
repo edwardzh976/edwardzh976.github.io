@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Edward's Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sonsie+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div class="right-links">
+                <ul>
+                    <li><a href="#">Resume</a></li>
+                    <li><a id="projects" href="#">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container_one">
+            <img src="static/Grad Photo 2022-modified.png" class="face_image">
+            <div>
+                <h1 class="main_text_white"><span style="color:#82B7DC">Edward</span> Zhang</h1>
+                <p class="secondary_text">
+                    <span id="text_out"></span>
+                    <span class="blink_me">_</span>
+                </p>
+            </div>
+            <div class="icons">
+                <a href="#"><img src="static/linkedin logo.png" class="icon"></a>
+                <a href="#"><img src="static/GitHub-Mark-Light-32px.png" class="icon"></a>
+                <a href="#"><img src="static/gmail logo.png" class="icon"></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="main2">
+        <h1 class="project_header">Projects</h1>
+        <a class="project_link" href="#">
+            <div class="container_two">
+                <img class="portfolio_image" src="static/weather.png">
+                <div class="portfolio_text">
+                    <h2>Weather App</h2>
+                    <div class="skills">
+                        <button>HTML/CSS</button>
+                        <button>Javascript</button>
+                        <button>Weather API</button>
+                    </div>
+                    <p>Web app that uses the weather API to display the weekly weather data.</p>
+                </div>
+            </div>
+        </a>
+        <a class="project_link" href="#">
+            <div class="container_two">
+                <img class="portfolio_image" src="static/ebay-1.png">
+                <div class="portfolio_text">
+                    <h2>Ebay Web Scraper</h2>
+                    <div class="skills">
+                        <button>Python</button>
+                        <button>beautiful soup</button>
+                    </div>
+                    <p>Python script that scrapes data from Ebay.</p>
+                </div>
+            </div>
+        </a>
+        <a class="project_link" href="#">
+            <div class="container_two">
+                <img class="portfolio_image" src="static/pomodoro.png">
+                <div class="portfolio_text">
+                    <h2>Pomodoro Timer</h2>
+                    <div class="skills">
+                        <button>HTML/CSS</button>
+                        <button>Javascript</button>
+                        <button>SQL</button>
+                    </div>
+                    <p>Pomodoro timer that tracks how many sessions you have each day.</p>
+                </div>
+            </div>
+        </a>
+        <footer>Edward Zhang 2022</footer>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
