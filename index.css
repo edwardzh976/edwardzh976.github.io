@@ -133,7 +133,7 @@ h1 {
 }
 
 .portfolio_image {
-    width: 40vw;
+    width: 40%;
     height: 300px;
     border-radius: 10px;
     border: 3px solid #1e6fd9;
@@ -142,7 +142,7 @@ h1 {
 .portfolio_text {
     border-radius: 10px;
     border: 3px solid #1e6fd9;
-    width: 40vw;
+    width: 40%;
     height: 180px;
     z-index: 3;
     margin: -20px;
@@ -194,7 +194,7 @@ footer{
     color: #F9FaF8;
 }
 
-.project_header {
+#project_header {
     text-align: center;
     font-size: 3rem;
     color: #F9FaF8;
