@@ -9,8 +9,6 @@ function typeWriter() {
   }
 }
 window.onload = typeWriter();
-const projects = document.getElementById("projects")
 
-projects.addEventListener(onclick, function scroll(){
-    window.scroll(0, 100)
-})
+
+
