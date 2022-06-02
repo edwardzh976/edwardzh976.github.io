@@ -241,7 +241,8 @@ footer{
     }
 
     .portfolio_image {
-        width: 70%;
+       /* width: 70%;*/
+       display: none;
     }
 }
 @media all and (max-width: 600px) {
