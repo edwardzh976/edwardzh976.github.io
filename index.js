@@ -10,5 +10,6 @@ function typeWriter() {
 }
 window.onload = typeWriter();
 
+AOS.init();
 
 
