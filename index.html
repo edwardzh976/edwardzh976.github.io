@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0">
-    <title>Edward's Portfolio Website</title>
+    <title>Edward Zhang</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sonsie+One&display=swap"
@@ -14,100 +14,94 @@
 </head>
 
 <body>
-    <div class="homepage">
-        <div class="main">
-            <div class="header">
-                <div class="right-links">
-                    <ul>
-                        <!--<li><a href="#">Resume</a></li>-->
-                        <!--<li><a id="projects" href="#">Projects</a></li>-->
-                    </ul>
-                </div>
-            </div>
-            <div class="container_one fade-in">
-                <img src="static/Grad Photo 2022-modified.png" class="face_image">
-                <div>
-                    <h1 class="main_text_white"><span style="color:#82B7DC">Edward</span> Zhang</h1>
-                    <p class="secondary_text">
-                        <span id="text_out"></span>
-                        <span class="blink_me">_</span>
-                    </p>
-                </div>
-                <div class="icons">
-                    <a href="https://www.linkedin.com/in/edward-z-61a012208/" target="_blank"><img
-                            src="static/linkedin_light.jpg" class="icon"></a>
-                    <a href="https://github.com/edwardzh976/" target="_blank"><img src="static/github2.jpg"
-                            class="icon"></a>
-                </div>
-
+    <div class="main">
+        <div class="header">
+            <div class="right-links">
+                <ul>
+                    <li><a href="index.html">Work Experience</a></li>
+                    <li><a id="projects" href="projects.html">Projects</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="main2">
-        <h1 id="project_header">Projects</h1>
-        <a class="project_link" href="#">
-            <div class="container_two" data-aos="fade-up">
-                <img class="portfolio_image" src="static/auction.png">
-                <div class="portfolio_text">
-                    <h2>Auction Site</h2>
-                    <div class="skills">
-                        <button>Django</button>
-                        <button>SQL</button>
-                        <button>Python</button>
-                        <button>HTML</button>
-                        <button>CSS</button>
-                    </div>
-                    <p>Fullstack web app that allows users to auction off items.</p>
-                </div>
-            </div>
-        </a>
-        <!-- <a class="project_link" href="#">
-            <div class="container_two" data-aos="fade-up">
-                <img class="portfolio_image" src="static/maze_pic.png">
-                <div class="portfolio_text">
-                    <h2>Maze Game</h2>
-                    <div class="skills">
-                        <button>Java</button>
-                        <button>Java Swing</button>
-                    </div>
-                    <p>Maze generated using DFS and Recursive Backtracking.</p>
-                </div>
-            </div>
-        </a> -->
-        <a class="project_link" href="#">
-            <div class="container_two" data-aos="fade-up">
-                <img class="portfolio_image" src="static/weather2.jpg">
-                <div class="portfolio_text">
-                    <h2>Weather App</h2>
-                    <div class="skills">
-                        <button>HTML/CSS</button>
-                        <button>Javascript</button>
-                        <button>Weather API</button>
-                    </div>
-                    <p>Web app that uses the weather API to display the weekly weather data.</p>
-                </div>
-            </div>
-        </a>
-        <a class="project_link" href="#">
-            <div class="container_two" data-aos="fade-up">
-                <img class="portfolio_image" src="static/ebay-1.png">
-                <div class="portfolio_text">
-                    <h2>Ebay Web Scraper</h2>
-                    <div class="skills">
-                        <button>Python</button>
-                        <button>beautiful soup</button>
-                    </div>
-                    <p>Python script that scrapes items, reviews and prices from Ebay.</p>
-                </div>
-            </div>
-        </a>
-        <footer>Edward Zhang 202</footer>
+        <div class="container_one">
+            <div>
+            <h1 class="main_text_white">Edward Zhang</h1>
+            <!-- <p>quirky blurb</p> -->
+             <p>Passionate software engineer. NYT mini games lover.</p>
 
+            </div>
+            <img src="static/2025-linkedin-pfp.png" class="face_image">
+        </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/edward-zhang-/" target="_blank"><img
+                    class="icon" src="static/Linkedin_circle_black-512.png"></a>
+            <a href="https://github.com/edwardzh976/" target="_blank"><img 
+                    class="icon" src="static/github.jpg"></a>
+            <a href="mailto:e223zhan@uwaterloo.ca" target="_blank"><img 
+                class="icon" src="static/email-black-envelope-shape.png"></a>
+        </div>
     </div>
 
+    <div class="experiences">
+        <div class="experience">
+            <div class="left">
+                <a href="https://wordswithfriends.com/" target="_blank"><img src="static/Zynga-black-Logo-Vector.svg-.png"
+                    alt="Company Logo" class="logo"></a>
+              <div class="role-company">
+                <span class="role">SWE Intern (Backend)</span>
+                <span class="company">Zynga</span>
+                <div class="description">
+                    Words With Friends
+                  </div>
+              </div>
+            </div>
+            <div class="date">Summer 2025</div>
+        </div>
+        <div class="experience">
+            <div class="left">
+                <a href="https://portal.uwaterloo.ca/ target="_blank"><img src="static/portal.png"
+                    alt="Company Logo" class="logo"></a>
+              <div class="role-company">
+                <span class="role">SWE Intern (Fullstack)</span>
+                <span class="company">University of Waterloo</span>
+                <span class="description">Student Life App</span>
+              </div>
+            </div>
+            <div class="date">Fall 2024</div>
+        </div>
+        <div class="experience">
+            <div class="left">
+                <a href="https://grantmatch.com/en/"target="_blank"><img src="static/grantmatch.webp"
+                    alt="Company Logo" class="logo"></a>
+              
+              <div class="role-company">
+                <span class="role">SWE Intern (Fullstack)</span>
+                <span class="company">GrantMatch</span>
+                <span class="description">Grant Application</span>
+              </div>
+            </div>
+            <div class="date">Winter 2024</div>
+        </div>
+        <div class="experience">
+            <div class="left">
+                <a href="https://www.acceleratorcentre.com/" target="_blank"> <img src="static/ac.png"
+                    alt="Company Logo" class="logo"></a>
+             
+              <div class="role-company">
+                <span class="role">SWE Intern (Fullstack)</span>
+                <span class="company">Accelerator Centre</span>
+                <span class="description">CRM integration</span>
+              </div>
+            </div>
+            <div class="date">Summer 2023</div>
+        </div>
+    </div>  
+
+</div>   
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="index.js"></script>
+    <footer>Made with ❤️ - Ed</footer>
 
 </body>
 
