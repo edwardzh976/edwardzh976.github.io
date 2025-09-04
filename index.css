@@ -264,6 +264,9 @@ footer{
         flex-direction: column;
         gap: 0.5rem;
     }
+    .experiences{
+        justify-content: center;
+    }
 
     .secondary_text {
         font-size: 1.3rem;
